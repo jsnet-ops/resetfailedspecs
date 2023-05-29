@@ -1,0 +1,521 @@
+{
+  "data": {
+    "runFeed": {
+      "cursor": "64707e660864370012e9e69d",
+      "hasMore": true,
+      "runs": [
+        {
+          "runId": "0368d8c49a42bc21788529248bc37ba0",
+          "createdAt": "2023-05-26T14:53:13.916Z",
+          "completion": {
+            "completed": false,
+            "inactivityTimeoutMs": null,
+            "__typename": "RunCompletion"
+          },
+          "meta": {
+            "ciBuildId": "0.1.PR-49483.6.1",
+            "projectId": "Commissioning",
+            "commit": {
+              "sha": "28ba85c017d516f4b1d4fdc40d7a4fdb9549cb11",
+              "branch": "merge",
+              "remoteOrigin": "https://dev.azure.com/privagroup/Commissioning/_git/InstallationManagement",
+              "message": "Merge pull request 49483 from feature/226938-update-priva-libraries into master\n",
+              "authorEmail": "Ayo.Ayco@priva.com",
+              "authorName": "Ayo Ayco",
+              "__typename": "Commit"
+            },
+            "__typename": "RunMeta"
+          },
+          "progress": {
+            "updatedAt": "2023-05-26T15:00:09.615Z",
+            "groups": [
+              {
+                "groupId": "0.1.PR-49483.6.1",
+                "instances": {
+                  "overall": 38,
+                  "claimed": 30,
+                  "complete": 30,
+                  "failures": 0,
+                  "passes": 30,
+                  "__typename": "RunGroupProgressInstances"
+                },
+                "tests": {
+                  "overall": 369,
+                  "passes": 358,
+                  "failures": 0,
+                  "pending": 11,
+                  "skipped": 0,
+                  "flaky": 0,
+                  "__typename": "RunGroupProgressTests"
+                },
+                "__typename": "RunGroupProgress"
+              }
+            ],
+            "__typename": "RunProgress"
+          },
+          "__typename": "Run"
+        },
+        {
+          "runId": "16dd8bd95ec800318095f9b5dc1b13ca",
+          "createdAt": "2023-05-26T12:41:22.569Z",
+          "completion": {
+            "completed": true,
+            "inactivityTimeoutMs": null,
+            "__typename": "RunCompletion"
+          },
+          "meta": {
+            "ciBuildId": "0.1.PR-49483.5.1",
+            "projectId": "Commissioning",
+            "commit": {
+              "sha": "28ba85c017d516f4b1d4fdc40d7a4fdb9549cb11",
+              "branch": "merge",
+              "remoteOrigin": "https://dev.azure.com/privagroup/Commissioning/_git/InstallationManagement",
+              "message": "Merge pull request 49483 from feature/226938-update-priva-libraries into master\n",
+              "authorEmail": "Ayo.Ayco@priva.com",
+              "authorName": "Ayo Ayco",
+              "__typename": "Commit"
+            },
+            "__typename": "RunMeta"
+          },
+          "progress": {
+            "updatedAt": "2023-05-26T12:48:28.699Z",
+            "groups": [
+              {
+                "groupId": "0.1.PR-49483.5.1",
+                "instances": {
+                  "overall": 38,
+                  "claimed": 38,
+                  "complete": 38,
+                  "failures": 8,
+                  "passes": 30,
+                  "__typename": "RunGroupProgressInstances"
+                },
+                "tests": {
+                  "overall": 450,
+                  "passes": 357,
+                  "failures": 82,
+                  "pending": 11,
+                  "skipped": 0,
+                  "flaky": 0,
+                  "__typename": "RunGroupProgressTests"
+                },
+                "__typename": "RunGroupProgress"
+              }
+            ],
+            "__typename": "RunProgress"
+          },
+          "__typename": "Run"
+        },
+        {
+          "runId": "d33bee1c7261a2930810a407fb00694f",
+          "createdAt": "2023-05-26T12:24:34.888Z",
+          "completion": {
+            "completed": true,
+            "inactivityTimeoutMs": null,
+            "__typename": "RunCompletion"
+          },
+          "meta": {
+            "ciBuildId": "0.1.PR-49483.4.1",
+            "projectId": "Commissioning",
+            "commit": {
+              "sha": "d04fad64d355ff777d3e49b6a996bc07e7bb86f4",
+              "branch": "merge",
+              "remoteOrigin": "https://dev.azure.com/privagroup/Commissioning/_git/InstallationManagement",
+              "message": "Merge pull request 49483 from feature/226938-update-priva-libraries into master\n",
+              "authorEmail": "Ayo.Ayco@priva.com",
+              "authorName": "Ayo Ayco",
+              "__typename": "Commit"
+            },
+            "__typename": "RunMeta"
+          },
+          "progress": {
+            "updatedAt": "2023-05-26T12:32:25.608Z",
+            "groups": [
+              {
+                "groupId": "0.1.PR-49483.4.1",
+                "instances": {
+                  "overall": 38,
+                  "claimed": 38,
+                  "complete": 38,
+                  "failures": 0,
+                  "passes": 38,
+                  "__typename": "RunGroupProgressInstances"
+                },
+                "tests": {
+                  "overall": 450,
+                  "passes": 439,
+                  "failures": 0,
+                  "pending": 11,
+                  "skipped": 0,
+                  "flaky": 0,
+                  "__typename": "RunGroupProgressTests"
+                },
+                "__typename": "RunGroupProgress"
+              }
+            ],
+            "__typename": "RunProgress"
+          },
+          "__typename": "Run"
+        },
+        {
+          "runId": "ac16f739759844758a726583f9e38513",
+          "createdAt": "2023-05-26T11:58:58.843Z",
+          "completion": {
+            "completed": true,
+            "inactivityTimeoutMs": null,
+            "__typename": "RunCompletion"
+          },
+          "meta": {
+            "ciBuildId": "0.1.PR-49483.3.1",
+            "projectId": "Commissioning",
+            "commit": {
+              "sha": "a12263cd3bb04e6cf409f94a8161f3d24bbcae13",
+              "branch": "merge",
+              "remoteOrigin": "https://dev.azure.com/privagroup/Commissioning/_git/InstallationManagement",
+              "message": "Merge pull request 49483 from feature/226938-update-priva-libraries into master\n",
+              "authorEmail": "Ayo.Ayco@priva.com",
+              "authorName": "Ayo Ayco",
+              "__typename": "Commit"
+            },
+            "__typename": "RunMeta"
+          },
+          "progress": {
+            "updatedAt": "2023-05-26T12:05:52.372Z",
+            "groups": [
+              {
+                "groupId": "0.1.PR-49483.3.1",
+                "instances": {
+                  "overall": 38,
+                  "claimed": 38,
+                  "complete": 38,
+                  "failures": 2,
+                  "passes": 36,
+                  "__typename": "RunGroupProgressInstances"
+                },
+                "tests": {
+                  "overall": 450,
+                  "passes": 437,
+                  "failures": 2,
+                  "pending": 11,
+                  "skipped": 0,
+                  "flaky": 0,
+                  "__typename": "RunGroupProgressTests"
+                },
+                "__typename": "RunGroupProgress"
+              }
+            ],
+            "__typename": "RunProgress"
+          },
+          "__typename": "Run"
+        },
+        {
+          "runId": "44827439b728b2ddab23b4f344908917",
+          "createdAt": "2023-05-26T11:47:42.991Z",
+          "completion": {
+            "completed": true,
+            "inactivityTimeoutMs": 600000,
+            "__typename": "RunCompletion"
+          },
+          "meta": {
+            "ciBuildId": "0.1.PR-49483.2.1",
+            "projectId": "Commissioning",
+            "commit": {
+              "sha": "d499f82e6fa6b666a805ffea704bc2187afec77d",
+              "branch": "merge",
+              "remoteOrigin": "https://dev.azure.com/privagroup/Commissioning/_git/InstallationManagement",
+              "message": "Merge pull request 49483 from feature/226938-update-priva-libraries into master\n",
+              "authorEmail": "Ayo.Ayco@priva.com",
+              "authorName": "Ayo Ayco",
+              "__typename": "Commit"
+            },
+            "__typename": "RunMeta"
+          },
+          "progress": {
+            "updatedAt": "2023-05-26T11:53:09.742Z",
+            "groups": [
+              {
+                "groupId": "0.1.PR-49483.2.1",
+                "instances": {
+                  "overall": 38,
+                  "claimed": 38,
+                  "complete": 37,
+                  "failures": 0,
+                  "passes": 37,
+                  "__typename": "RunGroupProgressInstances"
+                },
+                "tests": {
+                  "overall": 395,
+                  "passes": 384,
+                  "failures": 0,
+                  "pending": 11,
+                  "skipped": 0,
+                  "flaky": 0,
+                  "__typename": "RunGroupProgressTests"
+                },
+                "__typename": "RunGroupProgress"
+              }
+            ],
+            "__typename": "RunProgress"
+          },
+          "__typename": "Run"
+        },
+        {
+          "runId": "e42dafbefc402e841d17790fa7afb7e2",
+          "createdAt": "2023-05-26T10:51:46.775Z",
+          "completion": {
+            "completed": true,
+            "inactivityTimeoutMs": null,
+            "__typename": "RunCompletion"
+          },
+          "meta": {
+            "ciBuildId": "0.1.638.1",
+            "projectId": "Commissioning",
+            "commit": {
+              "sha": "8031fdd9a3814aea5a96353be2f9f95916bd1811",
+              "branch": "master",
+              "remoteOrigin": "https://dev.azure.com/privagroup/Commissioning/_git/InstallationManagement",
+              "message": "Merged PR 49636: Only scan new branch to be merge to master\n\nRelated work items: #229416\n",
+              "authorEmail": "Jos.Wilbrink@priva.com",
+              "authorName": "Jos Wilbrink",
+              "__typename": "Commit"
+            },
+            "__typename": "RunMeta"
+          },
+          "progress": {
+            "updatedAt": "2023-05-26T10:59:05.994Z",
+            "groups": [
+              {
+                "groupId": "0.1.638.1",
+                "instances": {
+                  "overall": 38,
+                  "claimed": 38,
+                  "complete": 38,
+                  "failures": 0,
+                  "passes": 38,
+                  "__typename": "RunGroupProgressInstances"
+                },
+                "tests": {
+                  "overall": 450,
+                  "passes": 439,
+                  "failures": 0,
+                  "pending": 11,
+                  "skipped": 0,
+                  "flaky": 0,
+                  "__typename": "RunGroupProgressTests"
+                },
+                "__typename": "RunGroupProgress"
+              }
+            ],
+            "__typename": "RunProgress"
+          },
+          "__typename": "Run"
+        },
+        {
+          "runId": "a736b239cbe2e8ac215199311df4407f",
+          "createdAt": "2023-05-26T10:15:37.029Z",
+          "completion": {
+            "completed": true,
+            "inactivityTimeoutMs": 600000,
+            "__typename": "RunCompletion"
+          },
+          "meta": {
+            "ciBuildId": "0.1.PR-49636.1.2",
+            "projectId": "Commissioning",
+            "commit": {
+              "sha": "2d8af64cc0c9592a64eeae29e095fa2bfa12fd25",
+              "branch": "merge",
+              "remoteOrigin": "https://dev.azure.com/privagroup/Commissioning/_git/InstallationManagement",
+              "message": "Merge pull request 49636 from bug/secret_detection_per_branch into master\n",
+              "authorEmail": "Jos.Wilbrink@priva.com",
+              "authorName": "Jos Wilbrink",
+              "__typename": "Commit"
+            },
+            "__typename": "RunMeta"
+          },
+          "progress": {
+            "updatedAt": "2023-05-26T10:47:50.452Z",
+            "groups": [
+              {
+                "groupId": "0.1.PR-49636.1.2",
+                "instances": {
+                  "overall": 38,
+                  "claimed": 38,
+                  "complete": 38,
+                  "failures": 0,
+                  "passes": 38,
+                  "__typename": "RunGroupProgressInstances"
+                },
+                "tests": {
+                  "overall": 450,
+                  "passes": 439,
+                  "failures": 0,
+                  "pending": 11,
+                  "skipped": 0,
+                  "flaky": 0,
+                  "__typename": "RunGroupProgressTests"
+                },
+                "__typename": "RunGroupProgress"
+              }
+            ],
+            "__typename": "RunProgress"
+          },
+          "__typename": "Run"
+        },
+        {
+          "runId": "0503963ee9866d1b7c29902109e84f1e",
+          "createdAt": "2023-05-26T09:54:21.431Z",
+          "completion": {
+            "completed": true,
+            "inactivityTimeoutMs": null,
+            "__typename": "RunCompletion"
+          },
+          "meta": {
+            "ciBuildId": "0.1.PR-49636.1.1",
+            "projectId": "Commissioning",
+            "commit": {
+              "sha": "2d8af64cc0c9592a64eeae29e095fa2bfa12fd25",
+              "branch": "merge",
+              "remoteOrigin": "https://dev.azure.com/privagroup/Commissioning/_git/InstallationManagement",
+              "message": "Merge pull request 49636 from bug/secret_detection_per_branch into master\n",
+              "authorEmail": "Jos.Wilbrink@priva.com",
+              "authorName": "Jos Wilbrink",
+              "__typename": "Commit"
+            },
+            "__typename": "RunMeta"
+          },
+          "progress": {
+            "updatedAt": "2023-05-26T10:01:58.306Z",
+            "groups": [
+              {
+                "groupId": "0.1.PR-49636.1.1",
+                "instances": {
+                  "overall": 38,
+                  "claimed": 38,
+                  "complete": 38,
+                  "failures": 1,
+                  "passes": 37,
+                  "__typename": "RunGroupProgressInstances"
+                },
+                "tests": {
+                  "overall": 450,
+                  "passes": 438,
+                  "failures": 1,
+                  "pending": 11,
+                  "skipped": 0,
+                  "flaky": 0,
+                  "__typename": "RunGroupProgressTests"
+                },
+                "__typename": "RunGroupProgress"
+              }
+            ],
+            "__typename": "RunProgress"
+          },
+          "__typename": "Run"
+        },
+        {
+          "runId": "f7155ac6d48fbc8837aa14118a64051a",
+          "createdAt": "2023-05-26T09:42:04.366Z",
+          "completion": {
+            "completed": true,
+            "inactivityTimeoutMs": null,
+            "__typename": "RunCompletion"
+          },
+          "meta": {
+            "ciBuildId": "0.1.PR-49636.0.1",
+            "projectId": "Commissioning",
+            "commit": {
+              "sha": "4bf7ea157070a1a36d0e58bdba83bb9f0e7497b4",
+              "branch": "merge",
+              "remoteOrigin": "https://dev.azure.com/privagroup/Commissioning/_git/InstallationManagement",
+              "message": "Merge pull request 49636 from bug/secret_detection_per_branch into master\n",
+              "authorEmail": "Jos.Wilbrink@priva.com",
+              "authorName": "Jos Wilbrink",
+              "__typename": "Commit"
+            },
+            "__typename": "RunMeta"
+          },
+          "progress": {
+            "updatedAt": "2023-05-26T09:47:14.615Z",
+            "groups": [
+              {
+                "groupId": "0.1.PR-49636.0.1",
+                "instances": {
+                  "overall": 38,
+                  "claimed": 38,
+                  "complete": 38,
+                  "failures": 5,
+                  "passes": 33,
+                  "__typename": "RunGroupProgressInstances"
+                },
+                "tests": {
+                  "overall": 450,
+                  "passes": 335,
+                  "failures": 104,
+                  "pending": 11,
+                  "skipped": 0,
+                  "flaky": 0,
+                  "__typename": "RunGroupProgressTests"
+                },
+                "__typename": "RunGroupProgress"
+              }
+            ],
+            "__typename": "RunProgress"
+          },
+          "__typename": "Run"
+        },
+        {
+          "runId": "1bc651c137fe13015debefc813aa109a",
+          "createdAt": "2023-05-26T09:39:50.988Z",
+          "completion": {
+            "completed": true,
+            "inactivityTimeoutMs": null,
+            "__typename": "RunCompletion"
+          },
+          "meta": {
+            "ciBuildId": "0.1.637.1",
+            "projectId": "Commissioning",
+            "commit": {
+              "sha": "7fa6ef1ec2d0cad93aa0db465015ad66dd54c274",
+              "branch": "master",
+              "remoteOrigin": "https://dev.azure.com/privagroup/Commissioning/_git/InstallationManagement",
+              "message": "Merged PR 49631: devops: add job attempt to cypress test run\n\ndevops: add job attempt to cypress test run\n\nRelated work items: #229241\n",
+              "authorEmail": "Jos.Wilbrink@priva.com",
+              "authorName": "Jos Wilbrink",
+              "__typename": "Commit"
+            },
+            "__typename": "RunMeta"
+          },
+          "progress": {
+            "updatedAt": "2023-05-26T09:47:28.318Z",
+            "groups": [
+              {
+                "groupId": "0.1.637.1",
+                "instances": {
+                  "overall": 38,
+                  "claimed": 38,
+                  "complete": 38,
+                  "failures": 0,
+                  "passes": 38,
+                  "__typename": "RunGroupProgressInstances"
+                },
+                "tests": {
+                  "overall": 450,
+                  "passes": 439,
+                  "failures": 0,
+                  "pending": 11,
+                  "skipped": 0,
+                  "flaky": 0,
+                  "__typename": "RunGroupProgressTests"
+                },
+                "__typename": "RunGroupProgress"
+              }
+            ],
+            "__typename": "RunProgress"
+          },
+          "__typename": "Run"
+        }
+      ],
+      "__typename": "RunFeed"
+    }
+  }
+}

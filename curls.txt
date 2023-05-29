@@ -1,0 +1,12 @@
+# get run feed
+curl -X POST -H "Content-Type:application/json" 'https://cypress.mypriva.com/api' --data @getrunsfeed.json | jq > getrunsfeed_result.json
+
+# extract runid from 
+curl -X POST -H "Content-Type:application/json" 'https://cypress.mypriva.com/api' --data @get_runfeed.json | jq '.[].data.runfeed.runs'
+
+# get run
+curl -X POST -H "Content-Type:application/json" 'https://cypress.mypriva.com/api' --data @getrun.json | jq > getrun_result.json
+
+
+
+

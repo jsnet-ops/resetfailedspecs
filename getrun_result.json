@@ -1,0 +1,879 @@
+{
+  "data": {
+    "run": {
+      "runId": "0368d8c49a42bc21788529248bc37ba0",
+      "createdAt": "2023-05-26T14:53:13.916Z",
+      "completion": {
+        "completed": false,
+        "inactivityTimeoutMs": null,
+        "__typename": "RunCompletion"
+      },
+      "meta": {
+        "ciBuildId": "0.1.PR-49483.6.1",
+        "projectId": "Commissioning",
+        "commit": {
+          "sha": "28ba85c017d516f4b1d4fdc40d7a4fdb9549cb11",
+          "branch": "merge",
+          "remoteOrigin": "https://dev.azure.com/privagroup/Commissioning/_git/InstallationManagement",
+          "message": "Merge pull request 49483 from feature/226938-update-priva-libraries into master\n",
+          "authorEmail": "Ayo.Ayco@priva.com",
+          "authorName": "Ayo Ayco",
+          "__typename": "Commit"
+        },
+        "__typename": "RunMeta"
+      },
+      "specs": [
+        {
+          "instanceId": "081bff94-8f90-49bb-9d55-ffcc48da026c",
+          "spec": "cypress/integration/auth/login_smoke_spec.ts",
+          "claimedAt": "2023-05-26T14:53:14.012Z",
+          "machineId": "12cbe02a-d58f-4717-bcdf-1ceb7c1a11f0",
+          "groupId": "0.1.PR-49483.6.1",
+          "results": {
+            "error": null,
+            "flaky": 0,
+            "stats": {
+              "suites": 1,
+              "tests": 1,
+              "pending": 1,
+              "passes": 0,
+              "failures": 0,
+              "skipped": 0,
+              "wallClockDuration": 18,
+              "wallClockStartedAt": "2023-05-26T14:53:24.538Z",
+              "wallClockEndedAt": "2023-05-26T14:53:24.556Z",
+              "__typename": "InstanceStats"
+            },
+            "__typename": "RunSpecResults"
+          },
+          "__typename": "RunSpec"
+        },
+        {
+          "instanceId": "5fd16506-a6ec-4ca7-ae4b-9ffc86968c90",
+          "spec": "cypress/integration/local/local-device-overview.component_spec.ts",
+          "claimedAt": "2023-05-26T14:53:18.852Z",
+          "machineId": "f6da2ccd-f826-495d-bd89-633d49a55b00",
+          "groupId": "0.1.PR-49483.6.1",
+          "results": {
+            "error": null,
+            "flaky": 0,
+            "stats": {
+              "suites": 1,
+              "tests": 2,
+              "pending": 2,
+              "passes": 0,
+              "failures": 0,
+              "skipped": 0,
+              "wallClockDuration": 38,
+              "wallClockStartedAt": "2023-05-26T14:53:29.734Z",
+              "wallClockEndedAt": "2023-05-26T14:53:29.772Z",
+              "__typename": "InstanceStats"
+            },
+            "__typename": "RunSpecResults"
+          },
+          "__typename": "RunSpec"
+        },
+        {
+          "instanceId": "21028c3d-3041-4048-9821-58a09e512cc5",
+          "spec": "cypress/integration/local/local-gateway-details_spec.ts",
+          "claimedAt": "2023-05-26T14:53:23.468Z",
+          "machineId": "41394619-8c8e-457e-8e2f-28f1a6068968",
+          "groupId": "0.1.PR-49483.6.1",
+          "results": {
+            "error": null,
+            "flaky": 0,
+            "stats": {
+              "suites": 1,
+              "tests": 2,
+              "pending": 2,
+              "passes": 0,
+              "failures": 0,
+              "skipped": 0,
+              "wallClockDuration": 20,
+              "wallClockStartedAt": "2023-05-26T14:53:35.023Z",
+              "wallClockEndedAt": "2023-05-26T14:53:35.043Z",
+              "__typename": "InstanceStats"
+            },
+            "__typename": "RunSpecResults"
+          },
+          "__typename": "RunSpec"
+        },
+        {
+          "instanceId": "262ed1e2-f3e1-4e74-8a97-f0e1aee702a7",
+          "spec": "cypress/integration/features/cpc-details/cpc-details-network-settings_spec.ts",
+          "claimedAt": "2023-05-26T14:53:24.800Z",
+          "machineId": "12cbe02a-d58f-4717-bcdf-1ceb7c1a11f0",
+          "groupId": "0.1.PR-49483.6.1",
+          "results": {
+            "error": null,
+            "flaky": 0,
+            "stats": {
+              "suites": 1,
+              "tests": 7,
+              "pending": 0,
+              "passes": 7,
+              "failures": 0,
+              "skipped": 0,
+              "wallClockDuration": 73405,
+              "wallClockStartedAt": "2023-05-26T14:53:35.439Z",
+              "wallClockEndedAt": "2023-05-26T14:54:48.844Z",
+              "__typename": "InstanceStats"
+            },
+            "__typename": "RunSpecResults"
+          },
+          "__typename": "RunSpec"
+        },
+        {
+          "instanceId": "af39ece3-8c56-4b32-a24d-36b16ead6ff0",
+          "spec": "cypress/integration/features/cpc-details/cpc-details-states_spec.ts",
+          "claimedAt": "2023-05-26T14:53:27.238Z",
+          "machineId": "3534225b-00c9-447e-9848-329e6db54fb0",
+          "groupId": "0.1.PR-49483.6.1",
+          "results": {
+            "error": null,
+            "flaky": 0,
+            "stats": {
+              "suites": 4,
+              "tests": 18,
+              "pending": 0,
+              "passes": 18,
+              "failures": 0,
+              "skipped": 0,
+              "wallClockDuration": 74389,
+              "wallClockStartedAt": "2023-05-26T14:53:40.795Z",
+              "wallClockEndedAt": "2023-05-26T14:54:55.184Z",
+              "__typename": "InstanceStats"
+            },
+            "__typename": "RunSpecResults"
+          },
+          "__typename": "RunSpec"
+        },
+        {
+          "instanceId": "637ebe1d-cd85-4b1f-94ee-918b66168e34",
+          "spec": "cypress/integration/features/cpc-details/cpc-details_spec.ts",
+          "claimedAt": "2023-05-26T14:53:27.276Z",
+          "machineId": "938933ae-f6c5-4e29-b5c8-fa8947a3af61",
+          "groupId": "0.1.PR-49483.6.1",
+          "results": {
+            "error": null,
+            "flaky": 0,
+            "stats": {
+              "suites": 4,
+              "tests": 10,
+              "pending": 0,
+              "passes": 10,
+              "failures": 0,
+              "skipped": 0,
+              "wallClockDuration": 63600,
+              "wallClockStartedAt": "2023-05-26T14:53:39.368Z",
+              "wallClockEndedAt": "2023-05-26T14:54:42.968Z",
+              "__typename": "InstanceStats"
+            },
+            "__typename": "RunSpecResults"
+          },
+          "__typename": "RunSpec"
+        },
+        {
+          "instanceId": "f7199cd7-9c21-44a8-bc7d-18dbbc24bc2b",
+          "spec": "cypress/integration/features/ecph-details/ecph-details-calibrate-ec-wizard_spec.ts",
+          "claimedAt": "2023-05-26T14:53:30.054Z",
+          "machineId": "f6da2ccd-f826-495d-bd89-633d49a55b00",
+          "groupId": "0.1.PR-49483.6.1",
+          "results": {
+            "error": null,
+            "flaky": 0,
+            "stats": {
+              "suites": 2,
+              "tests": 6,
+              "pending": 0,
+              "passes": 6,
+              "failures": 0,
+              "skipped": 0,
+              "wallClockDuration": 45304,
+              "wallClockStartedAt": "2023-05-26T14:53:43.374Z",
+              "wallClockEndedAt": "2023-05-26T14:54:28.678Z",
+              "__typename": "InstanceStats"
+            },
+            "__typename": "RunSpecResults"
+          },
+          "__typename": "RunSpec"
+        },
+        {
+          "instanceId": "2def9aee-cf9b-4142-9763-ae185cf95551",
+          "spec": "cypress/integration/features/ecph-details/ecph-details-calibrate-ph-wizard_spec.ts",
+          "claimedAt": "2023-05-26T14:53:31.050Z",
+          "machineId": "c53dc70a-751c-43bb-b4b7-188508d115c0",
+          "groupId": "0.1.PR-49483.6.1",
+          "results": {
+            "error": null,
+            "flaky": 0,
+            "stats": {
+              "suites": 2,
+              "tests": 8,
+              "pending": 0,
+              "passes": 8,
+              "failures": 0,
+              "skipped": 0,
+              "wallClockDuration": 67650,
+              "wallClockStartedAt": "2023-05-26T14:53:42.937Z",
+              "wallClockEndedAt": "2023-05-26T14:54:50.587Z",
+              "__typename": "InstanceStats"
+            },
+            "__typename": "RunSpecResults"
+          },
+          "__typename": "RunSpec"
+        },
+        {
+          "instanceId": "979b7211-5380-4c86-9f42-54ae870d3e74",
+          "spec": "cypress/integration/features/ecph-details/ecph-details-network-settings_spec.ts",
+          "claimedAt": null,
+          "machineId": null,
+          "groupId": "0.1.PR-49483.6.1",
+          "results": null,
+          "__typename": "RunSpec"
+        },
+        {
+          "instanceId": "a1570013-548a-48d3-8cd4-590ee947172d",
+          "spec": "cypress/integration/features/ecph-details/ecph-details-states_spec.ts",
+          "claimedAt": "2023-05-26T14:53:35.725Z",
+          "machineId": "41394619-8c8e-457e-8e2f-28f1a6068968",
+          "groupId": "0.1.PR-49483.6.1",
+          "results": {
+            "error": null,
+            "flaky": 0,
+            "stats": {
+              "suites": 2,
+              "tests": 15,
+              "pending": 0,
+              "passes": 15,
+              "failures": 0,
+              "skipped": 0,
+              "wallClockDuration": 45784,
+              "wallClockStartedAt": "2023-05-26T14:53:51.884Z",
+              "wallClockEndedAt": "2023-05-26T14:54:37.668Z",
+              "__typename": "InstanceStats"
+            },
+            "__typename": "RunSpecResults"
+          },
+          "__typename": "RunSpec"
+        },
+        {
+          "instanceId": "e5371c11-c36f-420b-b2eb-936b2f55c972",
+          "spec": "cypress/integration/features/ecph-details/ecph-details_spec.ts",
+          "claimedAt": "2023-05-26T14:53:40.189Z",
+          "machineId": "b94f01da-ab2f-4711-9123-988f218af8ca",
+          "groupId": "0.1.PR-49483.6.1",
+          "results": {
+            "error": null,
+            "flaky": 0,
+            "stats": {
+              "suites": 4,
+              "tests": 21,
+              "pending": 0,
+              "passes": 21,
+              "failures": 0,
+              "skipped": 0,
+              "wallClockDuration": 98904,
+              "wallClockStartedAt": "2023-05-26T14:53:51.931Z",
+              "wallClockEndedAt": "2023-05-26T14:55:30.835Z",
+              "__typename": "InstanceStats"
+            },
+            "__typename": "RunSpecResults"
+          },
+          "__typename": "RunSpec"
+        },
+        {
+          "instanceId": "055c60cf-9ebd-4843-b383-d4ad21b3d03c",
+          "spec": "cypress/integration/features/ecph-details/ecph-software-update_spec.ts",
+          "claimedAt": "2023-05-26T14:54:28.978Z",
+          "machineId": "f6da2ccd-f826-495d-bd89-633d49a55b00",
+          "groupId": "0.1.PR-49483.6.1",
+          "results": {
+            "error": null,
+            "flaky": 0,
+            "stats": {
+              "suites": 1,
+              "tests": 11,
+              "pending": 0,
+              "passes": 11,
+              "failures": 0,
+              "skipped": 0,
+              "wallClockDuration": 40978,
+              "wallClockStartedAt": "2023-05-26T14:54:36.707Z",
+              "wallClockEndedAt": "2023-05-26T14:55:17.685Z",
+              "__typename": "InstanceStats"
+            },
+            "__typename": "RunSpecResults"
+          },
+          "__typename": "RunSpec"
+        },
+        {
+          "instanceId": "98be9ccc-7623-4def-9b73-c6485b47b91c",
+          "spec": "cypress/integration/features/gateway-details/gateway-details-network-settings_spec.ts",
+          "claimedAt": "2023-05-26T14:54:37.908Z",
+          "machineId": "41394619-8c8e-457e-8e2f-28f1a6068968",
+          "groupId": "0.1.PR-49483.6.1",
+          "results": {
+            "error": null,
+            "flaky": 0,
+            "stats": {
+              "suites": 2,
+              "tests": 13,
+              "pending": 0,
+              "passes": 13,
+              "failures": 0,
+              "skipped": 0,
+              "wallClockDuration": 36551,
+              "wallClockStartedAt": "2023-05-26T14:54:45.513Z",
+              "wallClockEndedAt": "2023-05-26T14:55:22.064Z",
+              "__typename": "InstanceStats"
+            },
+            "__typename": "RunSpecResults"
+          },
+          "__typename": "RunSpec"
+        },
+        {
+          "instanceId": "cb2a0743-07cd-4aef-b856-0e85266cace6",
+          "spec": "cypress/integration/features/gateway-details/gateway-details-states_spec.ts",
+          "claimedAt": "2023-05-26T14:54:43.280Z",
+          "machineId": "938933ae-f6c5-4e29-b5c8-fa8947a3af61",
+          "groupId": "0.1.PR-49483.6.1",
+          "results": {
+            "error": null,
+            "flaky": 0,
+            "stats": {
+              "suites": 3,
+              "tests": 20,
+              "pending": 4,
+              "passes": 16,
+              "failures": 0,
+              "skipped": 0,
+              "wallClockDuration": 44320,
+              "wallClockStartedAt": "2023-05-26T14:54:51.639Z",
+              "wallClockEndedAt": "2023-05-26T14:55:35.959Z",
+              "__typename": "InstanceStats"
+            },
+            "__typename": "RunSpecResults"
+          },
+          "__typename": "RunSpec"
+        },
+        {
+          "instanceId": "6d99127e-925b-42d9-8d12-fd7337756aac",
+          "spec": "cypress/integration/features/gateway-details/gateway-details_spec.ts",
+          "claimedAt": "2023-05-26T14:54:49.179Z",
+          "machineId": "12cbe02a-d58f-4717-bcdf-1ceb7c1a11f0",
+          "groupId": "0.1.PR-49483.6.1",
+          "results": {
+            "error": null,
+            "flaky": 0,
+            "stats": {
+              "suites": 6,
+              "tests": 24,
+              "pending": 1,
+              "passes": 23,
+              "failures": 0,
+              "skipped": 0,
+              "wallClockDuration": 64359,
+              "wallClockStartedAt": "2023-05-26T14:54:58.839Z",
+              "wallClockEndedAt": "2023-05-26T14:56:03.198Z",
+              "__typename": "InstanceStats"
+            },
+            "__typename": "RunSpecResults"
+          },
+          "__typename": "RunSpec"
+        },
+        {
+          "instanceId": "204c03a3-34e1-45c3-ace8-fc63805a7aec",
+          "spec": "cypress/integration/features/gateway-details/gateway-software-update_spec.ts",
+          "claimedAt": "2023-05-26T14:54:50.890Z",
+          "machineId": "c53dc70a-751c-43bb-b4b7-188508d115c0",
+          "groupId": "0.1.PR-49483.6.1",
+          "results": {
+            "error": null,
+            "flaky": 0,
+            "stats": {
+              "suites": 2,
+              "tests": 15,
+              "pending": 1,
+              "passes": 14,
+              "failures": 0,
+              "skipped": 0,
+              "wallClockDuration": 43244,
+              "wallClockStartedAt": "2023-05-26T14:55:00.808Z",
+              "wallClockEndedAt": "2023-05-26T14:55:44.052Z",
+              "__typename": "InstanceStats"
+            },
+            "__typename": "RunSpecResults"
+          },
+          "__typename": "RunSpec"
+        },
+        {
+          "instanceId": "783760ab-e8d8-45ac-aa57-98653d5138e1",
+          "spec": "cypress/integration/features/ims-details/ims-details-calibrate-ec-wizard_spec.ts",
+          "claimedAt": "2023-05-26T14:54:55.468Z",
+          "machineId": "3534225b-00c9-447e-9848-329e6db54fb0",
+          "groupId": "0.1.PR-49483.6.1",
+          "results": {
+            "error": null,
+            "flaky": 0,
+            "stats": {
+              "suites": 3,
+              "tests": 6,
+              "pending": 0,
+              "passes": 6,
+              "failures": 0,
+              "skipped": 0,
+              "wallClockDuration": 28453,
+              "wallClockStartedAt": "2023-05-26T14:55:04.497Z",
+              "wallClockEndedAt": "2023-05-26T14:55:32.950Z",
+              "__typename": "InstanceStats"
+            },
+            "__typename": "RunSpecResults"
+          },
+          "__typename": "RunSpec"
+        },
+        {
+          "instanceId": "c672029e-809f-4986-8be1-0ee7330c5d78",
+          "spec": "cypress/integration/features/ims-details/ims-details-calibrate-ph-wizard_spec.ts",
+          "claimedAt": null,
+          "machineId": null,
+          "groupId": "0.1.PR-49483.6.1",
+          "results": null,
+          "__typename": "RunSpec"
+        },
+        {
+          "instanceId": "6ff70371-19b4-477a-979b-36376f1f9244",
+          "spec": "cypress/integration/features/ims-details/ims-details-calibrate-pump-wizard_spec.ts",
+          "claimedAt": "2023-05-26T14:55:17.894Z",
+          "machineId": "f6da2ccd-f826-495d-bd89-633d49a55b00",
+          "groupId": "0.1.PR-49483.6.1",
+          "results": {
+            "error": null,
+            "flaky": 0,
+            "stats": {
+              "suites": 3,
+              "tests": 8,
+              "pending": 0,
+              "passes": 8,
+              "failures": 0,
+              "skipped": 0,
+              "wallClockDuration": 32587,
+              "wallClockStartedAt": "2023-05-26T14:55:25.714Z",
+              "wallClockEndedAt": "2023-05-26T14:55:58.301Z",
+              "__typename": "InstanceStats"
+            },
+            "__typename": "RunSpecResults"
+          },
+          "__typename": "RunSpec"
+        },
+        {
+          "instanceId": "b8393114-d5d6-48e3-9b5d-f548b07d9e3d",
+          "spec": "cypress/integration/features/ims-details/ims-details-diagnostics_spec.ts",
+          "claimedAt": "2023-05-26T14:55:22.304Z",
+          "machineId": "41394619-8c8e-457e-8e2f-28f1a6068968",
+          "groupId": "0.1.PR-49483.6.1",
+          "results": {
+            "error": null,
+            "flaky": 0,
+            "stats": {
+              "suites": 1,
+              "tests": 2,
+              "pending": 0,
+              "passes": 2,
+              "failures": 0,
+              "skipped": 0,
+              "wallClockDuration": 12182,
+              "wallClockStartedAt": "2023-05-26T14:55:29.794Z",
+              "wallClockEndedAt": "2023-05-26T14:55:41.976Z",
+              "__typename": "InstanceStats"
+            },
+            "__typename": "RunSpecResults"
+          },
+          "__typename": "RunSpec"
+        },
+        {
+          "instanceId": "58506747-7c66-4236-abcb-5fe28a3ae1df",
+          "spec": "cypress/integration/features/ims-details/ims-details-ec-calibrate-next-button_spec.ts",
+          "claimedAt": null,
+          "machineId": null,
+          "groupId": "0.1.PR-49483.6.1",
+          "results": null,
+          "__typename": "RunSpec"
+        },
+        {
+          "instanceId": "32c9738c-5c9d-4b1f-9d14-1e787aed1a5f",
+          "spec": "cypress/integration/features/ims-details/ims-details-network-settings_spec.ts",
+          "claimedAt": "2023-05-26T14:55:31.120Z",
+          "machineId": "b94f01da-ab2f-4711-9123-988f218af8ca",
+          "groupId": "0.1.PR-49483.6.1",
+          "results": {
+            "error": null,
+            "flaky": 0,
+            "stats": {
+              "suites": 4,
+              "tests": 12,
+              "pending": 0,
+              "passes": 12,
+              "failures": 0,
+              "skipped": 0,
+              "wallClockDuration": 104168,
+              "wallClockStartedAt": "2023-05-26T14:55:39.203Z",
+              "wallClockEndedAt": "2023-05-26T14:57:23.371Z",
+              "__typename": "InstanceStats"
+            },
+            "__typename": "RunSpecResults"
+          },
+          "__typename": "RunSpec"
+        },
+        {
+          "instanceId": "779d34c1-2145-4a2c-b7dc-1962f061d54b",
+          "spec": "cypress/integration/features/ims-details/ims-details-ph-maintenance-calibration_spec.ts",
+          "claimedAt": "2023-05-26T14:55:33.232Z",
+          "machineId": "3534225b-00c9-447e-9848-329e6db54fb0",
+          "groupId": "0.1.PR-49483.6.1",
+          "results": {
+            "error": null,
+            "flaky": 0,
+            "stats": {
+              "suites": 1,
+              "tests": 3,
+              "pending": 0,
+              "passes": 3,
+              "failures": 0,
+              "skipped": 0,
+              "wallClockDuration": 15052,
+              "wallClockStartedAt": "2023-05-26T14:55:41.061Z",
+              "wallClockEndedAt": "2023-05-26T14:55:56.113Z",
+              "__typename": "InstanceStats"
+            },
+            "__typename": "RunSpecResults"
+          },
+          "__typename": "RunSpec"
+        },
+        {
+          "instanceId": "8dd3d28a-dfdc-4987-b4ea-225883372cf4",
+          "spec": "cypress/integration/features/ims-details/ims-details-solve-network-settings-issue_spec.ts",
+          "claimedAt": "2023-05-26T14:55:36.231Z",
+          "machineId": "938933ae-f6c5-4e29-b5c8-fa8947a3af61",
+          "groupId": "0.1.PR-49483.6.1",
+          "results": {
+            "error": null,
+            "flaky": 0,
+            "stats": {
+              "suites": 1,
+              "tests": 2,
+              "pending": 0,
+              "passes": 2,
+              "failures": 0,
+              "skipped": 0,
+              "wallClockDuration": 13401,
+              "wallClockStartedAt": "2023-05-26T14:55:43.948Z",
+              "wallClockEndedAt": "2023-05-26T14:55:57.349Z",
+              "__typename": "InstanceStats"
+            },
+            "__typename": "RunSpecResults"
+          },
+          "__typename": "RunSpec"
+        },
+        {
+          "instanceId": "5c731a18-ef70-40b3-8dea-d6efe31e3972",
+          "spec": "cypress/integration/features/ims-details/ims-details-states_spec.ts",
+          "claimedAt": "2023-05-26T14:55:42.306Z",
+          "machineId": "41394619-8c8e-457e-8e2f-28f1a6068968",
+          "groupId": "0.1.PR-49483.6.1",
+          "results": {
+            "error": null,
+            "flaky": 0,
+            "stats": {
+              "suites": 5,
+              "tests": 27,
+              "pending": 0,
+              "passes": 27,
+              "failures": 0,
+              "skipped": 0,
+              "wallClockDuration": 59209,
+              "wallClockStartedAt": "2023-05-26T14:55:50.321Z",
+              "wallClockEndedAt": "2023-05-26T14:56:49.530Z",
+              "__typename": "InstanceStats"
+            },
+            "__typename": "RunSpecResults"
+          },
+          "__typename": "RunSpec"
+        },
+        {
+          "instanceId": "a5934eb5-a07d-4965-ba61-f0b95433c267",
+          "spec": "cypress/integration/features/ims-details/ims-details-tare-wizards_spec.ts",
+          "claimedAt": null,
+          "machineId": null,
+          "groupId": "0.1.PR-49483.6.1",
+          "results": null,
+          "__typename": "RunSpec"
+        },
+        {
+          "instanceId": "f9c2221b-b8f0-4d63-a60e-7686d1819e44",
+          "spec": "cypress/integration/features/ims-details/ims-details_spec.ts",
+          "claimedAt": "2023-05-26T14:55:44.374Z",
+          "machineId": "c53dc70a-751c-43bb-b4b7-188508d115c0",
+          "groupId": "0.1.PR-49483.6.1",
+          "results": {
+            "error": null,
+            "flaky": 0,
+            "stats": {
+              "suites": 3,
+              "tests": 24,
+              "pending": 0,
+              "passes": 24,
+              "failures": 0,
+              "skipped": 0,
+              "wallClockDuration": 124010,
+              "wallClockStartedAt": "2023-05-26T14:55:52.317Z",
+              "wallClockEndedAt": "2023-05-26T14:57:56.327Z",
+              "__typename": "InstanceStats"
+            },
+            "__typename": "RunSpecResults"
+          },
+          "__typename": "RunSpec"
+        },
+        {
+          "instanceId": "fa2b8afd-4a57-46dd-8471-9b5ecb619092",
+          "spec": "cypress/integration/features/ims-details/ims-software-update_spec.ts",
+          "claimedAt": "2023-05-26T14:55:56.400Z",
+          "machineId": "3534225b-00c9-447e-9848-329e6db54fb0",
+          "groupId": "0.1.PR-49483.6.1",
+          "results": {
+            "error": null,
+            "flaky": 0,
+            "stats": {
+              "suites": 1,
+              "tests": 19,
+              "pending": 0,
+              "passes": 19,
+              "failures": 0,
+              "skipped": 0,
+              "wallClockDuration": 51144,
+              "wallClockStartedAt": "2023-05-26T14:56:04.669Z",
+              "wallClockEndedAt": "2023-05-26T14:56:55.813Z",
+              "__typename": "InstanceStats"
+            },
+            "__typename": "RunSpecResults"
+          },
+          "__typename": "RunSpec"
+        },
+        {
+          "instanceId": "b0fc47ed-f09d-419b-8c62-b51145c85778",
+          "spec": "cypress/integration/features/meteo-details/meteo-details-network-settings_spec.ts",
+          "claimedAt": "2023-05-26T14:55:57.628Z",
+          "machineId": "938933ae-f6c5-4e29-b5c8-fa8947a3af61",
+          "groupId": "0.1.PR-49483.6.1",
+          "results": {
+            "error": null,
+            "flaky": 0,
+            "stats": {
+              "suites": 1,
+              "tests": 5,
+              "pending": 0,
+              "passes": 5,
+              "failures": 0,
+              "skipped": 0,
+              "wallClockDuration": 51541,
+              "wallClockStartedAt": "2023-05-26T14:56:05.290Z",
+              "wallClockEndedAt": "2023-05-26T14:56:56.831Z",
+              "__typename": "InstanceStats"
+            },
+            "__typename": "RunSpecResults"
+          },
+          "__typename": "RunSpec"
+        },
+        {
+          "instanceId": "bfba8baf-8451-4d7c-8c44-9ab3a070360d",
+          "spec": "cypress/integration/features/meteo-details/meteo-details-states_spec.ts",
+          "claimedAt": "2023-05-26T14:55:58.535Z",
+          "machineId": "f6da2ccd-f826-495d-bd89-633d49a55b00",
+          "groupId": "0.1.PR-49483.6.1",
+          "results": {
+            "error": null,
+            "flaky": 0,
+            "stats": {
+              "suites": 2,
+              "tests": 11,
+              "pending": 0,
+              "passes": 11,
+              "failures": 0,
+              "skipped": 0,
+              "wallClockDuration": 27060,
+              "wallClockStartedAt": "2023-05-26T14:56:06.167Z",
+              "wallClockEndedAt": "2023-05-26T14:56:33.227Z",
+              "__typename": "InstanceStats"
+            },
+            "__typename": "RunSpecResults"
+          },
+          "__typename": "RunSpec"
+        },
+        {
+          "instanceId": "37e5aeac-33bb-49a1-8619-fe68164db07d",
+          "spec": "cypress/integration/features/meteo-details/meteo-details_spec.ts",
+          "claimedAt": "2023-05-26T14:56:03.510Z",
+          "machineId": "12cbe02a-d58f-4717-bcdf-1ceb7c1a11f0",
+          "groupId": "0.1.PR-49483.6.1",
+          "results": {
+            "error": null,
+            "flaky": 0,
+            "stats": {
+              "suites": 4,
+              "tests": 18,
+              "pending": 0,
+              "passes": 18,
+              "failures": 0,
+              "skipped": 0,
+              "wallClockDuration": 52430,
+              "wallClockStartedAt": "2023-05-26T14:56:11.272Z",
+              "wallClockEndedAt": "2023-05-26T14:57:03.702Z",
+              "__typename": "InstanceStats"
+            },
+            "__typename": "RunSpecResults"
+          },
+          "__typename": "RunSpec"
+        },
+        {
+          "instanceId": "576461eb-95f4-407d-b1a7-5458bba9ec1b",
+          "spec": "cypress/integration/features/meteo-details/meteo-software-update_spec.ts",
+          "claimedAt": null,
+          "machineId": null,
+          "groupId": "0.1.PR-49483.6.1",
+          "results": null,
+          "__typename": "RunSpec"
+        },
+        {
+          "instanceId": "a8e71d06-a933-474a-9add-bdbfb23789ba",
+          "spec": "cypress/integration/features/overview/device-issues.component_spec.ts",
+          "claimedAt": null,
+          "machineId": null,
+          "groupId": "0.1.PR-49483.6.1",
+          "results": null,
+          "__typename": "RunSpec"
+        },
+        {
+          "instanceId": "dfcbf062-7363-41cb-9f6b-cd0b97cb250a",
+          "spec": "cypress/integration/features/overview/device-overview.component_spec.ts",
+          "claimedAt": "2023-05-26T14:56:33.461Z",
+          "machineId": "f6da2ccd-f826-495d-bd89-633d49a55b00",
+          "groupId": "0.1.PR-49483.6.1",
+          "results": {
+            "error": null,
+            "flaky": 0,
+            "stats": {
+              "suites": 7,
+              "tests": 55,
+              "pending": 0,
+              "passes": 55,
+              "failures": 0,
+              "skipped": 0,
+              "wallClockDuration": 205891,
+              "wallClockStartedAt": "2023-05-26T14:56:43.319Z",
+              "wallClockEndedAt": "2023-05-26T15:00:09.210Z",
+              "__typename": "InstanceStats"
+            },
+            "__typename": "RunSpecResults"
+          },
+          "__typename": "RunSpec"
+        },
+        {
+          "instanceId": "99d3e438-7aac-4c60-89a3-7594e1adb871",
+          "spec": "cypress/integration/features/overview/gateway-states.component_spec.ts",
+          "claimedAt": null,
+          "machineId": null,
+          "groupId": "0.1.PR-49483.6.1",
+          "results": null,
+          "__typename": "RunSpec"
+        },
+        {
+          "instanceId": "beef942e-91a4-4cdc-bd8b-4ec75d293a5d",
+          "spec": "cypress/integration/features/overview/navigation-bar_spec.ts",
+          "claimedAt": "2023-05-26T14:56:49.872Z",
+          "machineId": "41394619-8c8e-457e-8e2f-28f1a6068968",
+          "groupId": "0.1.PR-49483.6.1",
+          "results": {
+            "error": null,
+            "flaky": 0,
+            "stats": {
+              "suites": 1,
+              "tests": 2,
+              "pending": 0,
+              "passes": 2,
+              "failures": 0,
+              "skipped": 0,
+              "wallClockDuration": 11403,
+              "wallClockStartedAt": "2023-05-26T14:56:57.411Z",
+              "wallClockEndedAt": "2023-05-26T14:57:08.814Z",
+              "__typename": "InstanceStats"
+            },
+            "__typename": "RunSpecResults"
+          },
+          "__typename": "RunSpec"
+        },
+        {
+          "instanceId": "b9618a44-69dc-4994-8391-161c33a4d750",
+          "spec": "cypress/integration/features/settings/settings_spec.ts",
+          "claimedAt": null,
+          "machineId": null,
+          "groupId": "0.1.PR-49483.6.1",
+          "results": null,
+          "__typename": "RunSpec"
+        },
+        {
+          "instanceId": "d4c26f0c-8f54-43e0-aa6a-4caea6d15fb8",
+          "spec": "cypress/integration/features/solve-missing-configuration/solve-ip-missing_spec.ts",
+          "claimedAt": "2023-05-26T14:56:56.168Z",
+          "machineId": "3534225b-00c9-447e-9848-329e6db54fb0",
+          "groupId": "0.1.PR-49483.6.1",
+          "results": {
+            "error": null,
+            "flaky": 0,
+            "stats": {
+              "suites": 1,
+              "tests": 2,
+              "pending": 0,
+              "passes": 2,
+              "failures": 0,
+              "skipped": 0,
+              "wallClockDuration": 13227,
+              "wallClockStartedAt": "2023-05-26T14:57:04.006Z",
+              "wallClockEndedAt": "2023-05-26T14:57:17.233Z",
+              "__typename": "InstanceStats"
+            },
+            "__typename": "RunSpecResults"
+          },
+          "__typename": "RunSpec"
+        }
+      ],
+      "progress": {
+        "updatedAt": "2023-05-26T15:00:09.615Z",
+        "groups": [
+          {
+            "groupId": "0.1.PR-49483.6.1",
+            "instances": {
+              "overall": 38,
+              "claimed": 30,
+              "complete": 30,
+              "failures": 0,
+              "passes": 30,
+              "__typename": "RunGroupProgressInstances"
+            },
+            "tests": {
+              "overall": 369,
+              "passes": 358,
+              "failures": 0,
+              "pending": 11,
+              "skipped": 0,
+              "flaky": 0,
+              "__typename": "RunGroupProgressTests"
+            },
+            "__typename": "RunGroupProgress"
+          }
+        ],
+        "__typename": "RunProgress"
+      },
+      "__typename": "Run"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+    "operationName": "getRunsFeed",
+    "variables": {
+        "filters": [
+            {
+                "key": "meta.projectId",
+                "value": "Commissioning",
+                "like": null
+            }
+        ],
+        "cursor": ""
+    },
+    "query": "query getRunsFeed($cursor: String, $filters: [Filters!]!) {\n  runFeed(cursor: $cursor, filters: $filters) {\n    cursor\n    hasMore\n    runs {\n      runId\n      createdAt\n      completion {\n        ...RunSummaryCompletion\n        __typename\n      }\n      meta {\n        ...RunSummaryMeta\n        __typename\n      }\n      progress {\n        ...RunProgress\n        __typename\n      }\n      __typename\n    }\n    __typename\n  }\n}\n\nfragment RunSummaryCompletion on RunCompletion {\n  completed\n  inactivityTimeoutMs\n  __typename\n}\n\nfragment RunSummaryMeta on RunMeta {\n  ciBuildId\n  projectId\n  commit {\n    sha\n    branch\n    remoteOrigin\n    message\n    authorEmail\n    authorName\n    __typename\n  }\n  __typename\n}\n\nfragment RunProgress on RunProgress {\n  updatedAt\n  groups {\n    groupId\n    instances {\n      ...RunGroupProgressInstances\n      __typename\n    }\n    tests {\n      ...RunGroupProgressTests\n      __typename\n    }\n    __typename\n  }\n  __typename\n}\n\nfragment RunGroupProgressInstances on RunGroupProgressInstances {\n  overall\n  claimed\n  complete\n  failures\n  passes\n  __typename\n}\n\nfragment RunGroupProgressTests on RunGroupProgressTests {\n  overall\n  passes\n  failures\n  pending\n  skipped\n  flaky\n  __typename\n}\n"
+}
